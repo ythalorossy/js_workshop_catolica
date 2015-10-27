@@ -1,0 +1,12 @@
+<h1>Participantes</h1>
+<div class="row">
+    <div ng-repeat="participante in participantes" class="col-sm-4">
+        <wsc-participante-card 
+            idparticipante="participante.id"
+            username="participante.username"
+            email="participante.email"
+            bio="participante.bio">
+        </wsc-participante-card>
+    </div>
+</div>
+

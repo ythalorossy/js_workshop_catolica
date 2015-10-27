@@ -1,0 +1,8 @@
+<h1>Editar: {{participante.username}}</h1>
+<form>
+    
+    <wsc-form-fields></wsc-form-fields>
+    
+    <input type="submit" value="{{isSubmitting ? 'Editando...' : 'Editar'}}" class="btn btn-default" ng-click="saveParticipante(participante)" ng-disabled="isSubmitting"/>
+    
+</form>
