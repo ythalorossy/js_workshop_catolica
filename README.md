@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -20,3 +21,7 @@ This chat example showcases how to use `socket.io` with a static `express` serve
     $ node server.js
 
 Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
+=======
+# js_workshop_catolica
+Web Apps using angularjs and Express.js to present worshop in Catholic college Quixadá
+>>>>>>> 9c2eb4c081a98b4307bfa4fb82b8210a5bf6c33d
