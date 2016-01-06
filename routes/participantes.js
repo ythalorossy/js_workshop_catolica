@@ -31,7 +31,6 @@ router.delete('/:id', function(request, response){
 // POST /participantes
 router.post('/', function(request, response) {
   response.json(Participante.create(request.body));
-})
-
+});
 
 module.exports = router;
